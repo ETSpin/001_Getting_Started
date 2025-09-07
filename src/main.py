@@ -19,7 +19,7 @@ def main():
     """
     TBD: Method DocString
     """
-    pass
+    print("Hello, World! Your Python starter template is working.")
 
 
 if __name__ == '__main__':
