@@ -2,25 +2,26 @@
 # -*- coding: UTF-8 -*-
 
 """
-File: {file_name}
+File: main.py
 Author: MORS
-Date: {date}
+Date: 8 Sep 25
 
 Description:
-{brief_description_of_the_file}
+Working my way through the Python Crash Course Book
 
 Usage:
-{brief_usage_instructions}
+N/A
 
 """
 
 
 def main():
-    """
-    TBD: Method DocString
-    """
-    print("Hello, World! Your Python starter template is working.")
-
+    first_name = "ada's"
+    last_name = "lovelace"
+    white_space = "test "
+    full_name = f"{first_name} {last_name}"
+    print(f"Hello, {full_name.title()}!")
+    print(white_space.strip())
 
 if __name__ == '__main__':
     main()
