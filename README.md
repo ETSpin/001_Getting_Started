@@ -1,6 +1,6 @@
-# Python Starter Template 🐍
+# Python Crash Course - Chapter Practice 🐍
 
-This repository provides a clean, reusable scaffold for Python projects using [Ruff](https://docs.astral.sh/ruff/) for linting and [Visual Studio Code](https://code.visualstudio.com/) for development.
+I am working throught the book Python Crash Course while simultaneously learning how to use the Git repository system. I am using [Ruff](https://docs.astral.sh/ruff/) for linting and [Visual Studio Code](https://code.visualstudio.com/) for development.
 
 ## 📁 Project Structure
 python-starter-template/
