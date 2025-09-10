@@ -7,12 +7,15 @@ Author: MORS
 Date: 8 Sep 25
 
 Description:
-Working my way through the Python Crash Course Book
+Working my way through the Python Crash Course Book.
+I will go the first bunch of chapters and then create a 
+new project for the book projects.
+
 
 Usage:
 N/A
 
-"""
+"""  # noqa: E501
 
 
 def main():
@@ -40,6 +43,12 @@ def main():
     popped_bicycle = bicycles.pop(1)
     print("You can Pop things from anywhere on the list: ", popped_bicycle)
     print(bicycles)
+    
+    magicians = ['alice', 'david', 'carolina']
+    for magician in magicians:
+        print(magician.title())
+
+
 
 if __name__ == '__main__':
     main()
