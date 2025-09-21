@@ -82,6 +82,11 @@ def main():
     print("----------------------\n")
 
     newcubes = cubes[:]
+    newwcubes2 = cubes
+
+    cubes.append(0)
+
+    print(cubes)
     print(newcubes)
 
 if __name__ == '__main__':
