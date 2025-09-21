@@ -81,13 +81,16 @@ def main():
     print(cubes)
     print("----------------------\n")
 
-    newcubes = cubes[:]
-    newwcubes2 = cubes
+    newcubes = cubes[:] #To copy a list you need to use a slice (of the entire list)
+    newcubes2 = cubes #All this does does is set the new list "pointer" to the same place as the old list -- so they will always show the same info
 
     cubes.append(0)
 
     print(cubes)
     print(newcubes)
+    print(newcubes2)
+
+    newcubes2. 
 
 if __name__ == '__main__':
     main()
