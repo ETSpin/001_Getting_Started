@@ -48,7 +48,41 @@ def main():
     for magician in magicians:
         print(magician.title())
 
+    for value in range(5):
+        print (value)
 
+    numbers = list(range(1,6))
+    even_numbers= list(range(2,11,2))
+    print(numbers, "\n", even_numbers, "\n")
+
+    '''
+    earlier example
+    squares = []
+        for num in range(1,11):
+            squares.append(num ** 2)
+    squares = [value**2 for value in range(1, 11)]
+    '''
+
+    squares = [value **2 for value in range(1,11)] #comprehension method
+    print(squares)
+    print("The min is: ", min(squares))
+    print("The max is: ", max(squares))
+    print("The sum is: ", sum(squares))
+    print("----------------------\n")
+    print("Try it yourself exercises on page 60\n")
+    print("4-4, curious how long this will take to run?")
+    million = list(range(1,1000001))
+    print(million)
+    print("The min is: ", min(million))
+    print("The max is: ", max(million))
+    print("The sum is: ", sum(million))
+    print("\n4-9, list comprehension")
+    cubes = [num **3 for num in range(1,11)]
+    print(cubes)
+    print("----------------------\n")
+
+    newcubes = cubes[:]
+    print(newcubes)
 
 if __name__ == '__main__':
     main()
